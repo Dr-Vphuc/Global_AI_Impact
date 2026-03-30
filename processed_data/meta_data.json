@@ -144,11 +144,16 @@
     "ai_use_case_Medical Diagnostics",
     "ai_use_case_Predictive Maintenance",
     "ai_use_case_Software Development",
-    "ai_use_case_Supply Chain Optimization"
+    "ai_use_case_Supply Chain Optimization",
+    "ai_ethics_committee"
+  ],
+  "binary_cols": [
+    "ai_ethics_committee"
   ],
   "counts": {
     "cyclic_cols": 2,
     "numeric_ordinal_cols": 31,
-    "onehot_cols": 54
+    "onehot_cols": 55,
+    "binary_in_onehot_cols": 1
   }
 }
