@@ -3,7 +3,8 @@
     "response_id",
     "company_id",
     "survey_source",
-    "data_collection_method"
+    "data_collection_method",
+    "company_age_group"
   ],
   "encoding_strategy": {
     "survey_year": "numeric_keep",
@@ -16,7 +17,6 @@
     "annual_revenue_usd_millions": "numeric_keep",
     "company_founding_year": "numeric_keep",
     "company_age": "numeric_keep",
-    "company_age_group": "ordinal",
     "ai_adoption_rate": "numeric_keep",
     "ai_adoption_stage": "ordinal",
     "years_using_ai": "numeric_keep",
@@ -63,7 +63,6 @@
     "num_employees",
     "annual_revenue_usd_millions",
     "company_age",
-    "company_age_group",
     "ai_adoption_rate",
     "ai_adoption_stage",
     "years_using_ai",
@@ -152,7 +151,7 @@
   ],
   "counts": {
     "cyclic_cols": 2,
-    "numeric_ordinal_cols": 31,
+    "numeric_ordinal_cols": 30,
     "onehot_cols": 55,
     "binary_in_onehot_cols": 1
   }
